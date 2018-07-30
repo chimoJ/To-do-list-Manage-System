@@ -1,5 +1,5 @@
 # To-do-list-Manage-System
-Implement Spring MVC pattern to achieve the to-do manage System with login security. We use Eclipse and as IDEL and MAVEN to manage Spring project and handle the libraries. And use TOMCAT as web server.
+Implement Spring MVC pattern to achieve the to-do manage System with login security. Used Eclipse as IDEL and implemented MAVEN to manage Spring projects and handle libraries. And utilized TOMCAT as web server.
 在Spring MVC框架中，从“Request（请求）”开始，依次进入“DispatcherServlet（核心分发器）” —> “HandlerMapping（处理器映射）” —> “Controller（控制器）” —> “ModelAndView（模型和视图）” —> “ViewResolver（视图解析器）” —> “View（视图）” —> “Response（响应）”结束，其中DispatcherServlet、HandlerMapping和ViewResolver 只需要在XML文件中配置即可，从而大大提高了开发的效率，特别是对于 HandlerMapping 框架为其提供了默认的配置。</br>
 
 Core function of manage system: 
