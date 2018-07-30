@@ -4,9 +4,9 @@ Implement Spring MVC pattern to achieve the to-do manage System with login secur
 
 Core function of manage system: 
 ---
-    1 login security: Admin role cann't be gained without login by Spring security library.
-    2 add/delete/update to-do item into database
-    3 verified the input content by Hibernate Validation
+    1 login security: XML Filter and Spring Security configuration denied users who logged out to access system with Admin role.
+    2 System Admin role: add/delete/update to-do item into database
+    3 HTML5 verfication: verified the input content by Hibernate Validation
     4 Implement Logout function and end authentication and clear session.
-    5 Utilize RestController enable the rest users to visit to-do items in database
-    6 Internationlization by properties files.
+    5 Utilized Rest-Controller to enable users who logged out to retrieve to-do items in database with Read Only role.
+    6 Internationalized whole System with Spring MVC by properties files.
